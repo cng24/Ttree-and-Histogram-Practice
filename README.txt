@@ -66,9 +66,9 @@ TH1D h1("h1","Histo from a Ttree",1000,0,10);
 h1.Fill(A);
 h1.Draw()
 
-TH1D h1("h1","Histo from a Ttree",10,0,10);
-h1.FillRandom("gaus",10000);
-h1.Draw()
+#TH1D h1("h1","Histo from a Ttree",10,0,10);
+#h1.FillRandom("gaus",10000);
+#h1.Draw()
 
 
 
