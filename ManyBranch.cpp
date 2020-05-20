@@ -18,5 +18,7 @@ C = r.Rndm() * 10;
 
 t->Fill();
 t->Scan()
+  
+return 0;
 
 }
