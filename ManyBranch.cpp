@@ -2,7 +2,7 @@
 #include "TTree.h"
 #include "TMath.h"
 
-int run(){
+int ManyBranch(){
 
 gROOT->cd();
 TTree * t = new TTree("t", "a tree");
