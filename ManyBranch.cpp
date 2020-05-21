@@ -17,7 +17,7 @@ B = r.Rndm() * 10;
 C = r.Rndm() * 10; 
 
 t->Fill();
-t->Scan()
+t->Scan();
   
 return 0;
 
