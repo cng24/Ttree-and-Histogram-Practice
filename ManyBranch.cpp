@@ -1,8 +1,8 @@
-#include<iostream?
+#include<iostream>
 #include "TTree.h"
 #include "TMath.h"
 
-int(){
+int run(){
 
 gROOT->cd();
 TTree * t = new TTree("t", "a tree");
