@@ -18,15 +18,15 @@ t->Fill();
 t->Scan()
 
 TH1D h1("h1","Histo from a Ttree",1000,0,10);
-#name, title, number of bins, 
+//name, title, number of bins, 
 
-#HOW DO I FILL IT WITH THE ENTIRES FROM THE TTREE...https://root.cern/root/html530/TTree.html (potentially helpful?)
+//HOW DO I FILL IT WITH THE ENTIRES FROM THE TTREE...https://root.cern/root/html530/TTree.html (potentially helpful?)
 h1.Fill(A);
 h1.Draw();
 
-#TH1D h1("h1","Histo from a Ttree",10,0,10);
-#h1.FillRandom("gaus",10000);
-#h1.Draw()
+//TH1D h1("h1","Histo from a Ttree",10,0,10);
+//h1.FillRandom("gaus",10000);
+//h1.Draw()
 
 return 0;
 
