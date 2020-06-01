@@ -1,0 +1,32 @@
+#Working Detector Geometry Macro File
+#includes dim for WLS, Reflector, Panel, SiPM
+
+/run/initialize
+
+/MMG4/setWLSLength 514.15 //200 + 314.15 Splitting this up so that we can make three segments, see FiberLength1
+/MMG4/setWLSRadius 1 
+
+
+/MMG4/setPanelWidth 25.4 
+/MMG4/setPanelBase 250 
+
+/MMG4/setCoatingThickness 0.21 //thickness of reflector
+
+
+//NEW FROM MESSENGER AND HEADER IDK IF THEY WORK THO 
+
+/MMG4/setGrooveDepth 3
+/MMG4/setFiberLength1 100
+/MMG4/setFiberRadius .5
+/MMG4/setSiPMbase 3
+/MMG4/setSiPMy 12.5
+/MMG4/setfpRming 100
+/MMG4/setfpRmaxg 103
+/MMG4/setfpDzg 1.5 //fGrooveDepth/2
+/MMG4/setfpDPhig 0
+/MMG4/setfpSPhig 180
+/MMG4/setfpRminf 0
+/MMG4/setfpRmaxf 1
+/MMG4/setfpRtorf 100
+/MMG4/setfpDPhif 0
+/MMG4/setfpSPhif 180
